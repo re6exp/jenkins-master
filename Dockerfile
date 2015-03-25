@@ -11,7 +11,7 @@ ENV JENKINS_HOME /var/jenkins_home
 ENV JENKINS_UID 1000
 ENV JENKINS_GID 89
 ENV JENKINS_UC https://updates.jenkins-ci.org
-ENV JENKINS_VERSION 1.605
+ENV JENKINS_VERSION 1.606
 ENV JENKINS_DWNLD_URL http://mirrors.jenkins-ci.org/war/$JENKINS_VERSION/jenkins.war
 
 RUN groupadd -g "$JENKINS_GID" -r redmine
